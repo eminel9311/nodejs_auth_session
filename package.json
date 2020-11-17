@@ -1,0 +1,25 @@
+{
+  "name": "user_authentication_v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon run index.js"
+  },
+  "author": "quanbh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^5.3.1",
+    "mongoose": "^5.10.15",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "session": "^0.1.0"
+  }
+}
